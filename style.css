@@ -8,34 +8,32 @@ ul {
     margin-top: 7px;
     margin-left: 3px;
     margin-right: 3px;
-    padding: 4px 7px;
     background-color: rgb(105, 105, 105);
 }
 
 li
   { 
-  display:inline;
-  padding: 4px 0px;
+  vertical-align: middle;
+  display: table-cell;
   } 
 
 li.firstLeftSide{
     font-size: 16px;
     color: lightgrey;
-    font-weight: 400;
+    padding: 5px 8px;
 }
 
 li.secondLeftSide{
     background-color: lightgrey;
-    padding-left: 22px;
-    padding-right: 22px;
-    font-size: 12px;
+    padding: 5px 14px;
+    font-size: 10px;
     color: rgb(173, 173, 173);
     
 }
 
 li.thirdLeftSide{
-  font-size: 12px;
-  color: lightgrey;
+  padding: 5px 8px;
+  font-size: 10px;
 }
 
 .carousel {
@@ -51,13 +49,14 @@ h2.central {
   color: darkgrey;
   padding: 30px;
 }
+
 em {
   font-size: 15px;
 }
 
 article {
   height: 200px;
-  width: 170px;
+  width: 30%;
   display: inline-block;
   background-color: rgb(228, 228, 228);
   margin: 20px auto; /* Vertical  Horizontal */
